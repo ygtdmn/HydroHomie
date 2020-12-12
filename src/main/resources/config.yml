@@ -1,0 +1,33 @@
+# This configuration section by default means that plugin will send a message every 30 to 60 minutes. Change them as you want.
+send-message-every-x-minutes-low: 30
+send-message-every-x-minutes-high: 60
+
+# If your server has Vault and use-vault-prefix is true we will get the prefix of group-to-get-prefix-from. If not you can manually set it from below.
+prefix: "&7HydroHomie: &f"
+use-vault-prefix: true
+group-to-get-prefix-from: default
+
+# You can add as much as message you want! It will be randomly picked.
+# (The last message that sent will not be picked again as long as you don't restart your server)
+messages:
+  - "Don't forget to get hydrated homies!"
+  - "STOP! I just wanted to remind you to drink water. Okbye :)"
+  - "Psst %playerName%, there is a life and death matter that you need to take care of. Drink water, NOW!"
+  - "Imagine the freshness of water particles that goes down on your stomach. Or not, just go and drink water!"
+
+plugin-enable-message: "%prefix% Drink water while waiting for server to load OP!"
+plugin-disable-message: "%prefix% Now it's a perfect time to get hydrated OP!"
+plugin-reload-message: "%prefix% Plugin reloaded!"
+command-confirmation-message: "%prefix% Done deal homie!"
+invalid-command-message: "%prefix% &cI think you made a mistake homie. Just drink some water and try again."
+
+# Commands and Permissions:
+#
+# Command: /hydrohomie reload: Reloads the config.
+# Permission: hydrohomie.reload
+#
+# Command: /hydrohomie sendmessage: Picks a random message and send it to everyone.
+# Permission: hydrohomie.sendmessage
+#
+# Command: /hydrohomie toggle: Toggles getting hydrohomie messages.
+# Permission: hydrohomie.toggle

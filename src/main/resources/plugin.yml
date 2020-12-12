@@ -1,0 +1,9 @@
+name: HydroHomie
+main: me.uniodex.HydroHomie.HydroHomie
+author: UnioDex
+version: 1.0
+softdepend: [Vault]
+
+commands:
+  hydrohomie:
+    description: Main HydroHomie command.
